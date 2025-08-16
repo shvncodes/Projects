@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!---CSS file link-->
+</head>
+
+<body>
+    <header>
+        <h1>Shivani Choudhary</h1>
+        <p>Aspiring Software Developer with a strong focus on C++, Data Structures, and Web Development (HTML, CSS). Dedicated to building solid programming fundamentals and enhancing skills through hands-on projects and practice. Passionate about technology, problem-solving, and continuous learning.</p>
+
+        <nav>
+            <ul>
+                <!--jab "#" dal ke id likhte hai to vo usi page ke us section pe le jata hai jiski id hai vo-->
+                <li><a href="#AboutMe">About Me</a></li> 
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="AboutMe">
+            <h2>About Me</h2>
+            <img src="photo.jpg" alt="My photo" width="300" height="280">
+
+            <h3>Background</h3>
+            <p>I am an aspiring <strong>software developer</strong> with a strong foundation in C++, Data Structures, and Web Development (HTML, CSS). My journey in programming began with curiosity about how software works, which quickly grew into a passion for creating efficient, functional, and visually appealing solutions.</p>
+
+            <h3>Interests</h3>
+            <p>I enjoy solving algorithmic challenges, building responsive web pages, and experimenting with new tools and technologies. Beyond coding, I have a keen interest in understanding how different parts of a system work together to create impactful products. Continuous learning and hands-on practice are central to my approach.</p>
+
+            <h3>Goals</h3>
+            <p>My aim is to enhance my expertise in software development and contribute to meaningful projects that address real-world problems. I look forward to collaborating with like-minded individuals,learning from industry experts, and building solutions that make a lasting impact.</p>
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Programming Languages:</strong> C++, HTML, CSS</li>
+                <li><strong>Core Concepts:</strong> Data Structures & Algorithms, Problem Solving</li>
+                <li><strong>Web Development:</strong> Responsive Design, Basic UI Styling</li>
+                <li><strong>Tools & Platforms:</strong> Git, GitHub, VS Code</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication & Teamwork</li>
+                <li>Adaptability & Quick Learning</li>
+                <li>Time Management & Organization</li>
+            </ul>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+
+            <ol>
+                <h3><li>TaskFlow – To-Do List Web App</li></h3>
+                <p>A simple and responsive to-do list application where users can add, edit, and delete daily tasks. Includes local storage support to save tasks even after refreshing the page.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                Link: <a href="View Project">View Project</a>
+
+                <h3><li>AlgoVisualizer – DSA Algorithm Visualizer</li></h3>
+                <p>An interactive tool to visualize sorting and searching algorithms step-by-step. Helps beginners understand how algorithms work through animations and explanations.</p>
+                <p><strong>Technologies Used:</strong> C++, HTML, CSS, JavaScript</p>
+                Link: <a href="View Project">View Project</a>
+
+                <h3><li>Portfolio Website</li></h3>
+                <p>A personal portfolio website showcasing skills, projects, and contact details. Designed with a clean, minimal UI and mobile-friendly layout.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, GitHub Pages</p>
+                Link: <a href="View Project">View Project</a>
+            </ol>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="post">
+                <div>
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email-id" required>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <br>
+                    <textarea name="subject" id="subject" rows="1" cols="60" placeholder="Enter the subject here"></textarea>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message" id="message" rows="10" cols="60" placeholder="Enter the message here"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            <h3>My contact:</h3>
+            <nav>
+            <ul>
+                <li>Email: <a href="shivani2025@gmail.com">shivani2025@gmail.com</a></li>
+                <li>Phone: +91 9876543210</li>
+                <li>LinkedIn: <a href="linkedin.com/in/shivani">linkedin.com/in/shivani</a></li>
+                <li>GitHub: <a href="github.com/shivani">github.com/shivani</a></li>
+            </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>Check out my latest articles on <a href="technology and problem-solving">technology and problem-solving</a></p>
+        <p>Icons by <a href="FontAwesome">FontAwesome</a> | Hosted on <a href="GitHub Pages">GitHub Pages</a></p>
+        &copy;Shivani Choudhary | Designed & Built with ❤️
+    </footer>
+
+</body>
+</html>
