@@ -10,10 +10,10 @@ body {
 .container {
     padding: 120px;
 }   
+
 .boxContainer {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 20px;
     gap: 20px;
     justify-content: center;
 }
