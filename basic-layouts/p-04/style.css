@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #A70000;
+}
+
+.navigation {
+    width: 100%;
+    background: #5E0808;
+    padding: 25px 50px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 650px;
+}
+.one, .two, .three, .four, .five, .six {
+    color: white;
+}
+
+.right {
+    height: 30px;      /* size */
+    width: 30px;
+    background-color: red;
+    border-radius: 50%; /* makes it a circle */
+    flex-shrink: 0;
+}
+
+.primary {
+    padding: 40px 80px;
+}
+
+.bigBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.first, .second, .third, .forth, .fifth {
+    background-color: white;
+    padding: 16px;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 850px) {
+    .navigation {
+        padding: 15px 40px;
+    }
+    .primary {
+        padding: 40px 60px;
+    }
+    .first, .second, .third, .forth, .fifth {
+        padding: 10px;
+    }
+}   
+
+@media screen and (max-width: 850px){
+    .navigation {
+        padding: 5px 5px;
+    }
+    .primary {
+        padding: 20px 20px;
+    }
+    .first, .second, .third, .forth, .fifth {
+        padding: 5px;
+    }
+}
